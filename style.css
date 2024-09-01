@@ -1,0 +1,32 @@
+.navbar-collapse {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  /* 네비게이션 아이템들을 오른쪽으로 정렬 */
+  .navbar-nav {
+    display: flex;
+    gap: 15px; /* 버튼 사이의 간격 조정 */
+    text-align: right; /* 아이템 내부의 텍스트 오른쪽 정렬 */
+  }
+  
+  .button-container {
+    margin-right: 3rem;
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .button {
+    padding: 10px 20px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media (min-width: 1400px) {
+    .carousel {
+      width: 70rem;
+      margin: 0 auto; /* 가운데 정렬 */
+    }
+}
